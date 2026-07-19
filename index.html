@@ -5,12 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>최민서 — Embedded Portfolio</title>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-17ZGR426HG"></script>
+<!-- Google Analytics (GA4) — G-XXXXXXXXXX를 실제 측정 ID로 교체할 것 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-17ZGR426HG');
+  gtag('config', 'G-XXXXXXXXXX');
 </script>
 
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -57,7 +58,7 @@ body {
 /* ── INTRO ── */
 .intro {
   padding: 88px 0 68px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: none;
   margin-bottom: 72px;
   opacity: 0;
   animation: up 0.6s 0.1s forwards;
@@ -198,7 +199,7 @@ body {
 /* ── DIVIDER ── */
 .proj-divider {
   border: none;
-  border-top: 1.5px solid var(--border);
+  border-top: none;
   margin: 80px 0 72px;
   position: relative;
 }
@@ -220,7 +221,7 @@ body {
 /* ── PROJECT HEADER ── */
 .proj-header {
   padding: 64px 0 52px;
-  border-bottom: 1px solid var(--border);
+  border-bottom: none;
   margin-bottom: 64px;
 }
 
@@ -265,7 +266,7 @@ body {
   gap: 14px;
   margin-bottom: 28px;
   padding-bottom: 12px;
-  border-bottom: 1.5px solid var(--border);
+  border-bottom: none;
 }
 .sh-n {
   font-family: var(--mono);
@@ -595,8 +596,8 @@ footer {
   display: flex;
   gap: 0;
   margin: 22px 0 26px;
-  border-top: 1.5px solid var(--text);
-  border-bottom: 1.5px solid var(--text);
+  border-top: none;
+  border-bottom: none;
 }
 .stat-strip .st {
   flex: 1;
@@ -776,7 +777,7 @@ footer {
   <div class="sec">
     <div class="sh"><span class="sh-n">02</span><h3>배운 점</h3></div>
     <ul class="learn-list">
-      <li>크래시 로그 없이 조용히 멈춘 스케줄러 — 바이너리 심볼을 직접 대조해 원인을 찾게 됨</li>
+      <li>크래시 로그 없이 조용히 멈춘 스케줄러 — 바이너리 심볼을 직접 대조해 원인을 찾게 됨/li>
       <li>순간값 대신 다수결 판정으로 노이즈에 흔들리지 않는 상태 판단 설계</li>
       <li>감으로 잡던 스택 크기를 실측값 기준으로 조정하는 습관을 들임</li>
     </ul>
