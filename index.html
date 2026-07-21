@@ -14,6 +14,7 @@
   gtag('config', 'G-17ZGR426HG');
 </script>
 
+
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet">
 <style>
@@ -40,10 +41,10 @@
   --shadow:    0 2px 20px rgba(0,0,0,0.07);
   --shadow-lg: 0 8px 40px rgba(0,0,0,0.10);
 }
-
+ 
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior: smooth; }
-
+ 
 body {
   background: var(--bg);
   color: var(--text);
@@ -52,9 +53,9 @@ body {
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
-
+ 
 .page { max-width: 900px; margin: 0 auto; padding: 0 40px 120px; }
-
+ 
 /* ── INTRO ── */
 .intro {
   padding: 88px 0 68px;
@@ -63,7 +64,7 @@ body {
   opacity: 0;
   animation: up 0.6s 0.1s forwards;
 }
-
+ 
 .eyebrow {
   font-family: var(--mono);
   font-size: 10.5px;
@@ -81,7 +82,7 @@ body {
   width: 28px; height: 1.5px;
   background: var(--accent);
 }
-
+ 
 .intro h1 {
   font-family: var(--serif);
   font-size: clamp(42px, 7.5vw, 66px);
@@ -90,14 +91,14 @@ body {
   margin-bottom: 8px;
 }
 .intro h1 em { font-style: normal; color: var(--accent); }
-
+ 
 .intro-sub {
   font-family: var(--serif);
   font-size: clamp(18px, 3vw, 24px);
   color: var(--muted);
   margin-bottom: 28px;
 }
-
+ 
 .intro-desc {
   font-size: 14.5px;
   color: var(--muted);
@@ -105,14 +106,14 @@ body {
   line-height: 2;
   margin-bottom: 32px;
 }
-
+ 
 .intro-links {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 36px;
 }
-
+ 
 .link-btn {
   font-family: var(--mono);
   font-size: 10.5px;
@@ -127,14 +128,14 @@ body {
 }
 .link-btn:hover { border-color: var(--accent); color: var(--accent); }
 .link-btn.primary { background: var(--accent-bg); border-color: #b0c0ef; color: var(--accent); }
-
+ 
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 48px;
 }
-
+ 
 .tag {
   font-family: var(--mono);
   font-size: 10.5px;
@@ -149,14 +150,14 @@ body {
 .tag.red   { background: #fdf0ef; color: var(--accent2); border-color: #f0c5c2; }
 .tag.amber { background: var(--amber-bg); color: var(--amber); border-color: var(--amber-bdr); }
 .tag.green { background: var(--green-bg); color: var(--green); border-color: var(--green-bdr); }
-
+ 
 /* ── PROJECT NAV ── */
 .proj-nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
-
+ 
 .pn {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -170,7 +171,7 @@ body {
 .pn.bms   { border-left: 3px solid var(--accent); }
 .pn.edge  { border-left: 3px solid var(--amber); }
 .pn.rtos  { border-left: 3px solid var(--green); }
-
+ 
 .pn-idx {
   font-family: var(--mono);
   font-size: 9.5px;
@@ -181,7 +182,7 @@ body {
   align-items: center;
   gap: 8px;
 }
-
+ 
 .pn-badge {
   font-size: 9px;
   padding: 2px 8px;
@@ -192,10 +193,10 @@ body {
 .pn-badge.done  { background: var(--green-bg); color: var(--green); border: 1px solid var(--green-bdr); }
 .pn-badge.built { background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber-bdr); }
 .pn-badge.wip   { background: var(--accent-bg); color: var(--accent); border: 1px solid #b0c0ef; }
-
+ 
 .pn-title { font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 6px; font-family: var(--serif); }
 .pn-desc  { font-size: 12px; color: var(--muted); line-height: 1.65; }
-
+ 
 /* ── DIVIDER ── */
 .proj-divider {
   border: none;
@@ -217,16 +218,16 @@ body {
   color: var(--muted);
   text-transform: uppercase;
 }
-
+ 
 /* ── PROJECT HEADER ── */
 .proj-header {
   padding: 64px 0 52px;
   border-bottom: none;
   margin-bottom: 64px;
 }
-
+ 
 .proj-header .eyebrow { margin-bottom: 18px; }
-
+ 
 .proj-header h2 {
   font-family: var(--serif);
   font-size: clamp(36px, 6vw, 54px);
@@ -235,14 +236,14 @@ body {
 }
 .proj-header h2 em { font-style: normal; color: var(--accent); }
 .proj-header h2 em.amber { color: var(--amber); }
-
+ 
 .proj-subtitle {
   font-size: clamp(15px, 2.2vw, 18px);
   color: var(--muted);
   margin-bottom: 20px;
   font-family: var(--serif);
 }
-
+ 
 .proj-desc {
   font-size: 14px;
   color: var(--muted);
@@ -250,7 +251,7 @@ body {
   line-height: 2;
   margin-bottom: 24px;
 }
-
+ 
 /* ── SECTION ── */
 .sec {
   margin-bottom: 68px;
@@ -259,7 +260,7 @@ body {
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 .sec.in { opacity: 1; transform: none; }
-
+ 
 .sh {
   display: flex;
   align-items: baseline;
@@ -279,7 +280,7 @@ body {
   font-size: 22px;
   letter-spacing: -0.01em;
 }
-
+ 
 /* ── ARCH GRID ── */
 .arch-grid {
   display: grid;
@@ -287,7 +288,7 @@ body {
   gap: 12px;
   margin-bottom: 20px;
 }
-
+ 
 .ac {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -301,7 +302,7 @@ body {
 .ac.c3 { border-left-color: #4a4741; }
 .ac.c4 { border-left-color: #2e2c28; }
 .ac.amber { border-left-color: var(--amber); }
-
+ 
 .ac-label {
   font-family: var(--mono);
   font-size: 9.5px;
@@ -312,7 +313,7 @@ body {
 }
 .ac-name { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 7px; }
 .ac-desc { font-size: 12.5px; color: var(--muted); line-height: 1.7; }
-
+ 
 /* ── FLOW ── */
 .flow {
   display: flex;
@@ -344,10 +345,10 @@ body {
 .fs-name.amber { color: var(--amber); }
 .fs-detail { font-size: 11px; color: var(--muted); line-height: 1.55; }
 .fa { font-size: 12px; color: var(--border2); padding: 0 2px; flex-shrink: 0; align-self: center; }
-
+ 
 /* ── FEATURE CARDS ── */
 .feat-list { display: flex; flex-direction: column; gap: 14px; }
-
+ 
 .fc {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -358,9 +359,9 @@ body {
   transition: box-shadow 0.2s;
 }
 .fc:hover { box-shadow: var(--shadow); }
-
+ 
 .fc-info { padding: 24px; border-right: 1px solid var(--border); }
-
+ 
 .fc-badge {
   font-family: var(--mono);
   font-size: 9.5px;
@@ -370,7 +371,7 @@ body {
   margin-bottom: 9px;
 }
 .fc-badge.amber { color: var(--amber); }
-
+ 
 .fc-title {
   font-size: 14.5px;
   font-weight: 600;
@@ -379,7 +380,7 @@ body {
   line-height: 1.4;
 }
 .fc-desc { font-size: 13px; color: var(--muted); line-height: 1.85; }
-
+ 
 /* ── CODE BLOCK ── */
 .code-wrap {
   padding: 18px;
@@ -415,7 +416,7 @@ pre { color: #3a3733; }
 .tp  { color: #0e6e4e; font-weight: 500; }
 .op  { color: #1e4fd8; }
 .str { color: #b07800; }
-
+ 
 /* ── DECISIONS ── */
 .decs { display: flex; flex-direction: column; }
 .dec {
@@ -440,7 +441,7 @@ pre { color: #3a3733; }
 .dec-label.green { color: var(--green); }
 .dec h4 { font-size: 14.5px; font-weight: 600; color: var(--text); margin-bottom: 7px; }
 .dec p  { font-size: 13px; color: var(--muted); line-height: 1.85; }
-
+ 
 /* ── TECH GRID ── */
 .tech-grid {
   display: grid;
@@ -465,7 +466,7 @@ pre { color: #3a3733; }
 }
 .tc-name { font-size: 13.5px; font-weight: 600; color: var(--text); margin-bottom: 7px; }
 .tc-detail { font-size: 12px; color: var(--muted); line-height: 1.7; }
-
+ 
 /* ── ROLE ── */
 .role-intro {
   font-size: 14px;
@@ -510,7 +511,7 @@ pre { color: #3a3733; }
   flex-shrink: 0;
 }
 .ri-dot.amber { background: var(--amber); }
-
+ 
 /* ── TAKEAWAYS ── */
 .tw-grid {
   display: grid;
@@ -528,7 +529,7 @@ pre { color: #3a3733; }
 .tw-icon { font-size: 22px; margin-bottom: 10px; }
 .tw-title { font-size: 13.5px; font-weight: 600; color: var(--text); margin-bottom: 8px; }
 .tw-desc { font-size: 12px; color: var(--test); line-height: 1.78; }
-
+ 
 /* ── INFO BOX ── */
 .info-box {
   font-size: 13px;
@@ -542,7 +543,7 @@ pre { color: #3a3733; }
 .info-box.amber  { background: var(--amber-bg); border-left: 3px solid var(--amber); }
 .info-box.green  { background: var(--green-bg); border-left: 3px solid var(--green); }
 .info-box strong { color: var(--text); font-weight: 600; }
-
+ 
 /* ── FOOTER ── */
 footer {
   margin-top: 64px;
@@ -561,12 +562,12 @@ footer {
   text-align: right;
   line-height: 2;
 }
-
+ 
 @keyframes up {
   from { opacity:0; transform: translateY(14px); }
   to   { opacity:1; transform: none; }
 }
-
+ 
 @media (max-width: 680px) {
   .page { padding: 0 20px 80px; }
   .arch-grid, .role-items, .tech-grid, .tw-grid { grid-template-columns: 1fr; }
@@ -576,7 +577,7 @@ footer {
   .dec { grid-template-columns: 1fr; gap: 8px; }
   .flow { flex-wrap: wrap; }
 }
-
+ 
 .diagram-wrap {
   margin-top: 18px;
   padding: 20px 16px;
@@ -586,12 +587,13 @@ footer {
   overflow-x: auto;
 }
 .arch-svg { width: 100%; height: auto; min-width: 480px; display: block; font-family: inherit; }
-
-.learn-list { display: flex; flex-direction: column; gap: 9px; margin-top: 4px; }
+ 
+.learn-list { display: flex; flex-direction: column; gap: 9px; margin-top: 4px; list-style: none; padding-left: 0; }
 .learn-list li { font-size: 13.5px; line-height: 1.6; padding-left: 16px; position: relative; color: var(--text); }
 .learn-list li::before { content: "–"; position: absolute; left: 0; color: var(--text); }
 .learn-list li strong { font-weight: 700; }
-
+.learn-list li strong.lbl { font-weight: 700; }
+ 
 .stat-strip {
   display: flex;
   gap: 0;
@@ -624,20 +626,20 @@ footer {
   .stat-strip { flex-wrap: wrap; }
   .stat-strip .st { flex: 1 1 50%; border-bottom: 1px solid var(--border, #e5e2da); }
 }
-
+ 
 /* PDF 인쇄: 가로모드, 프로젝트 1개(+소개) = 1페이지 */
 @page {
   size: landscape;
   margin: 9mm 10mm;
 }
-
+ 
 @media print {
   .proj-nav, .proj-divider { display: none; }
-
+ 
   /* 화면에서만 쓰는 스크롤 등장 애니메이션 — 인쇄 시 이게 살아있으면
      opacity:0 상태로 얼어붙어 아예 안 보이는 원인이 됨. 강제로 끔. */
   * { animation: none !important; opacity: 1 !important; transform: none !important; }
-
+ 
   .intro {
     height: 100vh;
     max-height: 100vh;
@@ -661,7 +663,7 @@ footer {
   .intro-timeline li { font-size: 11px !important; }
   .intro-toc { margin-top: 14px !important; }
   .intro-contact { font-size: 10px !important; margin-top: 14px !important; }
-
+ 
   #freertos, #bms, #edgecar {
     height: 100vh;
     max-height: 100vh;
@@ -681,59 +683,61 @@ footer {
     max-height: none;
     overflow: visible;
   }
-
+ 
   /* 섹션 내부에서 억지로 다음 페이지로 밀어내지 않음 —
      블록 전체 높이는 위에서 100vh로 이미 고정해둠 */
   .sec { page-break-inside: auto; break-inside: auto; }
-
+ 
   footer { display: none; }
   body { background: #fff; }
-
+ 
   .page { padding: 0 6mm; }
   .proj-header.sec, .sec { padding: 6px 0 !important; margin-bottom: 14px !important; }
   .proj-header { margin-bottom: 14px !important; }
   h2 { font-size: 24px !important; margin-bottom: 3px !important; }
   .eyebrow { font-size: 9.5px !important; margin-bottom: 6px !important; }
   .proj-subtitle { font-size: 11.5px !important; margin-bottom: 8px !important; }
-
+ 
   .stat-strip { margin: 8px 0 10px !important; }
   .stat-strip .st { padding: 6px 10px !important; }
   .stat-strip .st-num { font-size: 20px !important; }
   .stat-strip .st-label { font-size: 9px !important; }
-
+ 
   .skill-tags { margin-bottom: 8px !important; gap: 6px !important; }
   .tag { font-size: 9.5px !important; padding: 2px 8px !important; }
-
+ 
   .learn-list { gap: 4px !important; margin-top: 2px !important; }
   .learn-list li { font-size: 10.5px !important; line-height: 1.35 !important; }
-
+ 
   .sh { margin-bottom: 6px !important; }
   .sh h3 { font-size: 13px !important; }
-
+ 
   .diagram-wrap { margin-top: 6px !important; padding: 8px !important; }
   .arch-svg { min-width: 0 !important; max-height: 105px; }
+  #bms .arch-svg { max-height: 165px; }
+  #bms .diagram-wrap { padding: 6px !important; }
 }
 </style>
 </head>
 <body>
 <div class="page">
-
+ 
 <!-- ════════════════════════════════
      INTRO
 ════════════════════════════════ -->
 <section class="intro">
-
+ 
   <div class="eyebrow">Portfolio · 최민서</div>
-
+ 
   <h1>안녕하세요,<br><em>임베디드 개발자</em><br>최민서입니다.</h1>
   <p class="intro-sub">Automotive Embedded · AUTOSAR · Arduino</p>
-
+ 
   <p class="intro-desc">
     자동차 임베디드 소프트웨어에 관심을 가지고 AUTOSAR 기반 BMS 설계부터
     Arduino 기반 자율주행 차량 제어까지 직접 구현하며 실무 역량을 키워왔습니다.
     모듈 경계를 먼저 설계하고, 인터페이스를 정의한 뒤 구현하는 접근을 중요하게 생각합니다.
   </p>
-
+ 
   <div class="skill-tags">
     <span class="tag blue">AUTOSAR Classic</span>
     <span class="tag blue">Embedded C / C++</span>
@@ -744,7 +748,7 @@ footer {
     <span class="tag">Fault Diagnosis</span>
     <span class="tag">Moving Avg Filter</span>
   </div>
-
+ 
   <div class="intro-toc">
     <div class="eyebrow" style="margin-top:4px;">Contents</div>
     <ul class="learn-list">
@@ -753,27 +757,27 @@ footer {
       <li><strong>03 · EdgeCar</strong> — Arduino 기반 4WD 자율주행 차량</li>
     </ul>
   </div>
-
+ 
 </section>
-
-
+ 
+ 
 <!-- ════════════════════════════════
      PROJECT 01 — BMS FreeRTOS SCHEDULER
 ════════════════════════════════ -->
 <div id="freertos">
-
+ 
   <div class="proj-header sec">
     <div class="eyebrow">FreeRTOS · Bare-metal C · Solo Project · 진행중</div>
     <h2>BMS <em class="amber">FreeRTOS</em><br>Scheduler</h2>
     <p class="proj-subtitle">AUTOSAR라는 틀을 벗어나, 같은 BMS 로직을 범용 RTOS로 다시 검증한 개인 프로젝트</p>
-
+ 
     <div class="stat-strip">
       <div class="st"><div class="st-num">6</div><div class="st-label">TASK 파이프라인</div></div>
       <div class="st"><div class="st-num">55%</div><div class="st-label">스택 실측 절감</div></div>
       <div class="st"><div class="st-num">0→6</div><div class="st-label">무출력 스케줄러 원인 특정</div></div>
       <div class="st"><div class="st-num">1인</div><div class="st-label">단독 설계·구현</div></div>
     </div>
-
+ 
     <div class="skill-tags">
       <span class="tag green">FreeRTOS Kernel</span>
       <span class="tag green">Cortex-M3 / QEMU</span>
@@ -791,10 +795,10 @@ footer {
       <li><strong>스택 크기 튜닝</strong> — 실측 워터마크 기반 55% 절감</li>
     </ul>
   </div>
-
+ 
   <div class="sec">
     <div class="sh"><span class="sh-n">01</span><h3>시스템 아키텍처</h3></div>
-
+ 
     <div class="diagram-wrap">
       <svg viewBox="0 0 720 190" class="arch-svg" xmlns="http://www.w3.org/2000/svg">
         <defs>
@@ -806,31 +810,31 @@ footer {
           <rect x="10"  y="20" width="126" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
           <text x="73" y="40" text-anchor="middle" font-weight="600">BatteryMeas</text>
           <text x="73" y="57" text-anchor="middle" font-size="10">100ms 주기</text>
-
+ 
           <line x1="136" y1="45" x2="164" y2="45" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrRTOS)"/>
-
+ 
           <rect x="166" y="20" width="112" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
           <text x="222" y="40" text-anchor="middle" font-weight="600">FaultDiag</text>
           <text x="222" y="57" text-anchor="middle" font-size="10">다수결 판정</text>
-
+ 
           <line x1="278" y1="45" x2="306" y2="45" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrRTOS)"/>
-
+ 
           <rect x="308" y="20" width="126" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
           <text x="371" y="40" text-anchor="middle" font-weight="600">StateMachine</text>
           <text x="371" y="57" text-anchor="middle" font-size="10">FAULT 래치</text>
-
+ 
           <line x1="434" y1="45" x2="462" y2="45" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrRTOS)"/>
-
+ 
           <rect x="464" y="20" width="130" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
           <text x="529" y="40" text-anchor="middle" font-weight="600">RelayDecision</text>
           <text x="529" y="57" text-anchor="middle" font-size="10">프리차지 FSM</text>
-
+ 
           <line x1="594" y1="45" x2="622" y2="45" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrRTOS)"/>
-
+ 
           <rect x="624" y="20" width="90" height="50" rx="6" fill="#1a1916" stroke="#1a1916" stroke-width="1.5"/>
           <text x="669" y="40" text-anchor="middle" font-weight="600" fill="#f7f6f2">CANTx</text>
           <text x="669" y="57" text-anchor="middle" font-size="10" fill="#f7f6f2">프레임 로깅</text>
-
+ 
           <line x1="357" y1="70" x2="357" y2="128" stroke="#1a1916" stroke-width="1.2" stroke-dasharray="4 3"/>
           <rect x="257" y="130" width="200" height="44" rx="6" fill="none" stroke="#1a1916" stroke-width="1.2" stroke-dasharray="4 3"/>
           <text x="357" y="148" text-anchor="middle" font-weight="600">SysMonitor</text>
@@ -839,36 +843,35 @@ footer {
       </svg>
     </div>
   </div>
-
+ 
   <div class="sec">
     <div class="sh"><span class="sh-n">02</span><h3>배운 점</h3></div>
     <ul class="learn-list">
-      <li>크래시 로그 없이 조용히 멈춘 스케줄러 — 바이너리 심볼을 직접 대조해 원인을 찾게 됨</li>
-      <li>순간값 대신 다수결 판정으로 노이즈에 흔들리지 않는 상태 판단 설계</li>
-      <li>감으로 잡던 스택 크기를 실측값 기준으로 조정하는 습관을 들임</li>
+      <li>태스크 등록까지 다 됐는데 스케줄러 시작 후 크래시 로그도 없이 조용히 멈춤 — 바이너리 심볼을 직접 대조해 예외 벡터 이름 불일치를 찾아냄</li>
+      <li>센서 노이즈로 상태가 WARNING↔NORMAL을 빠르게 반복 — 순간값 대신 5샘플 다수결 판정으로 전환</li>
+      <li>SocketCAN까지 연동하려다 bare-metal과 커널 API가 애초에 만날 수 없는 구조임을 뒤늦게 확인 — 스코프를 프레임 로깅까지로 재정의</li>
+      <li>감으로 잡은 스택 크기가 낭비인지 위험인지 알 수 없었음 — 워터마크 실측 후 조정하는 습관으로 전환</li>
     </ul>
   </div>
-
+ 
 </div><!-- /freertos -->
-
-<hr class="proj-divider" data-label="Next Project">
-
+ 
 <!-- ════════════════════════════════
      PROJECT 02 — BMS
 ════════════════════════════════ -->
 <div id="bms">
-
+ 
   <div class="proj-header sec">
     <div class="eyebrow">AUTOSAR · Embedded C · Team Project</div>
     <h2>Battery <em>Management</em><br>System</h2>
-    <p class="proj-subtitle">AUTOSAR 기반 BMS 아키텍처 설계 및 SWC 구현</p>
-
+    <p class="proj-subtitle">AUTOSAR 기반 BMS 팀 프로젝트 — 이 페이지는 본인이 담당한 SWC 4개 기준</p>
+ 
     <div class="stat-strip">
       <div class="st"><div class="st-num">4</div><div class="st-label">SWC 단독 담당</div></div>
       <div class="st"><div class="st-num">5</div><div class="st-label">-State FSM</div></div>
       <div class="st"><div class="st-num">5</div><div class="st-label">Fault 유형 추적</div></div>
     </div>
-
+ 
     <div class="skill-tags">
       <span class="tag blue">AUTOSAR Classic</span>
       <span class="tag blue">RTE Port Interface</span>
@@ -887,82 +890,116 @@ footer {
       <li><strong>CAN Tx/Rx 핸들러 구현</strong> — VCU와 신호 송수신 처리</li>
     </ul>
   </div>
-
+ 
   <div class="sec">
     <div class="sh"><span class="sh-n">01</span><h3>시스템 아키텍처</h3></div>
-
+ 
     <div class="diagram-wrap">
-      <svg viewBox="0 0 720 140" class="arch-svg" xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox="0 0 900 250" class="arch-svg" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <marker id="arrBMS" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
             <path d="M0,0 L6,3 L0,6 Z" fill="#1a1916"/>
           </marker>
         </defs>
-        <g font-family="inherit" font-size="13" fill="#1a1916">
-          <rect x="10"  y="45" width="120" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
-          <text x="70" y="65" text-anchor="middle" font-weight="600">Sensor</text>
-          <text x="70" y="82" text-anchor="middle" font-size="10.5">전압·전류·온도</text>
-
-          <line x1="130" y1="70" x2="158" y2="70" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrBMS)"/>
-
-          <rect x="160" y="45" width="130" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
-          <text x="225" y="65" text-anchor="middle" font-weight="600">Measurement</text>
-          <text x="225" y="82" text-anchor="middle" font-size="10.5">필터·유효성 검증</text>
-
-          <line x1="290" y1="70" x2="318" y2="70" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrBMS)"/>
-
-          <rect x="320" y="45" width="120" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
-          <text x="380" y="65" text-anchor="middle" font-weight="600">Fault</text>
-          <text x="380" y="82" text-anchor="middle" font-size="10.5">비트마스크</text>
-
-          <line x1="440" y1="70" x2="468" y2="70" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrBMS)"/>
-
-          <rect x="470" y="45" width="120" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
-          <text x="530" y="65" text-anchor="middle" font-weight="600">State</text>
-          <text x="530" y="82" text-anchor="middle" font-size="10.5">5-state FSM</text>
-
-          <line x1="590" y1="70" x2="618" y2="70" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrBMS)"/>
-
-          <rect x="620" y="45" width="90" height="50" rx="6" fill="#1a1916" stroke="#1a1916" stroke-width="1.5"/>
-          <text x="665" y="65" text-anchor="middle" font-weight="600" fill="#f7f6f2">Relay</text>
-          <text x="665" y="82" text-anchor="middle" font-size="10.5" fill="#f7f6f2">ON/OFF</text>
+        <g font-family="inherit" fill="#1a1916">
+          <!-- BMS 보드 그룹 -->
+          <rect x="8" y="4" width="562" height="222" rx="8" fill="none" stroke="#1a1916" stroke-width="1.2" stroke-dasharray="3 3"/>
+          <text x="20" y="20" font-size="11" font-weight="700">BMS 보드</text>
+ 
+          <!-- Row 1 -->
+          <rect x="22" y="30" width="122" height="38" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="83" y="53" text-anchor="middle" font-size="10">BatterySim</text>
+ 
+          <rect x="154" y="30" width="122" height="38" rx="5" fill="#1a1916"/>
+          <text x="215" y="53" text-anchor="middle" font-size="10" fill="#f7f6f2">BatteryMeas ★</text>
+ 
+          <rect x="286" y="30" width="122" height="38" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="347" y="53" text-anchor="middle" font-size="10">VoltMonitor</text>
+ 
+          <rect x="418" y="30" width="122" height="38" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="479" y="53" text-anchor="middle" font-size="10">CurrMonitor</text>
+ 
+          <!-- Row 2 -->
+          <rect x="22" y="78" width="122" height="38" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="83" y="101" text-anchor="middle" font-size="10">TempMonitor</text>
+ 
+          <rect x="154" y="78" width="122" height="38" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="215" y="101" text-anchor="middle" font-size="10">SOCEstimation</text>
+ 
+          <rect x="286" y="78" width="122" height="38" rx="5" fill="#1a1916"/>
+          <text x="347" y="101" text-anchor="middle" font-size="10" fill="#f7f6f2">FaultDiag ★</text>
+ 
+          <rect x="418" y="78" width="122" height="38" rx="5" fill="#1a1916"/>
+          <text x="479" y="101" text-anchor="middle" font-size="10" fill="#f7f6f2">StateMachine ★</text>
+ 
+          <!-- Row 3 -->
+          <rect x="22" y="126" width="122" height="38" rx="5" fill="#1a1916"/>
+          <text x="83" y="149" text-anchor="middle" font-size="10" fill="#f7f6f2">RelayDecision ★</text>
+ 
+          <rect x="154" y="126" width="122" height="38" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="215" y="149" text-anchor="middle" font-size="10">CellBalancing</text>
+ 
+          <rect x="286" y="126" width="122" height="38" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="347" y="145" text-anchor="middle" font-size="9.5">RelayCtrl</text>
+          <text x="347" y="157" text-anchor="middle" font-size="9">(LED 표시)</text>
+ 
+          <rect x="418" y="126" width="122" height="38" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="479" y="145" text-anchor="middle" font-size="9.5">BalanceDisp</text>
+          <text x="479" y="157" text-anchor="middle" font-size="9">(LED 표시)</text>
+ 
+          <!-- Row 4: CAN 핸들러 -->
+          <rect x="22" y="182" width="518" height="34" rx="5" fill="#1a1916"/>
+          <text x="281" y="204" text-anchor="middle" font-size="10.5" fill="#f7f6f2">CAN Tx/Rx Handler ★</text>
+ 
+          <!-- VCU 보드 그룹 -->
+          <rect x="600" y="4" width="292" height="222" rx="8" fill="none" stroke="#1a1916" stroke-width="1.2" stroke-dasharray="3 3"/>
+          <text x="612" y="20" font-size="11" font-weight="700">VCU 보드</text>
+ 
+          <rect x="616" y="40" width="260" height="40" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="746" y="65" text-anchor="middle" font-size="10">VCUInput</text>
+ 
+          <rect x="616" y="96" width="260" height="40" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="746" y="121" text-anchor="middle" font-size="10">RelayRequestManager</text>
+ 
+          <rect x="616" y="152" width="260" height="40" rx="5" fill="none" stroke="#1a1916" stroke-width="1.2"/>
+          <text x="746" y="177" text-anchor="middle" font-size="10">SOCDisplay</text>
+ 
+          <!-- CAN 연결선 -->
+          <line x1="540" y1="199" x2="596" y2="199" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrBMS)"/>
+          <text x="568" y="192" text-anchor="middle" font-size="9">CAN</text>
         </g>
       </svg>
     </div>
   </div>
-
+ 
   <div class="sec">
     <div class="sh"><span class="sh-n">02</span><h3>배운 점</h3></div>
     <ul class="learn-list">
-      <li>릴레이 제어에 이중 검증을 넣어 단일 실패가 시스템 전체로 번지지 않게 함</li>
-      <li>Fault를 우선 처리하는 FSM 설계 — 어느 상태에서든 즉시 전이</li>
-      <li>비트마스크로 다중 Fault를 동시에 표현하는 방식의 이점을 체감</li>
-      <li>BMS–VCU 간 CAN 통신으로 신호 송수신 구조를 직접 검증한 경험</li>
+      <li>팀원과 ARXML을 병합하는 과정에서 SWC가 참조하는 Interface가 서로 안 맞아 RTE 생성·빌드가 계속 깨짐 — Interface 재정의부터 Port 재연결, Runnable/Task 매핑까지 실행 구조를 처음부터 다시 잡음</li>
+      <li>BMS·VCU 2보드 간 실제 CAN 통신 검증에서 문제가 생김 — 단일 보드 안에서 SWC 간 데이터 전달로 대체해 로직 자체는 확실히 검증</li>
+      <li>같은 아키텍처를 두고도 팀원마다 해석이 갈려 SWC 간 데이터 흐름이 안 맞물림 — Port 연결과 Signal 정의를 문서로 명확히 공유하는 방식으로 정리</li>
     </ul>
   </div>
-
+ 
 </div><!-- /bms -->
-
-
-<hr class="proj-divider" data-label="Next Project">
-
-
+ 
+ 
 <!-- ════════════════════════════════
      PROJECT 03 — EdgeCar
 ════════════════════════════════ -->
 <div id="edgecar">
-
+ 
   <div class="proj-header sec">
     <div class="eyebrow">Arduino · C/C++ · Personal Project</div>
     <h2>Edge<em class="amber">Car</em></h2>
     <p class="proj-subtitle">Arduino 기반 4WD 자율주행 차량 제어 시스템</p>
-
+ 
     <div class="stat-strip">
       <div class="st"><div class="st-num">3</div><div class="st-label">계층 아키텍처</div></div>
       <div class="st"><div class="st-num">6</div><div class="st-label">모듈 단독 구현</div></div>
       <div class="st"><div class="st-num">1인</div><div class="st-label">기획·구현 전담</div></div>
     </div>
-
+ 
     <div class="skill-tags">
       <span class="tag blue">Arduino Uno</span>
       <span class="tag blue">C / C++</span>
@@ -981,10 +1018,10 @@ footer {
       <li><strong>MotorControl/ModeManager 구현</strong> — IR 리모컨 기반 모드 전환</li>
     </ul>
   </div>
-
+ 
   <div class="sec">
     <div class="sh"><span class="sh-n">01</span><h3>시스템 아키텍처</h3></div>
-
+ 
     <div class="diagram-wrap">
       <svg viewBox="0 0 640 190" class="arch-svg" xmlns="http://www.w3.org/2000/svg">
         <defs>
@@ -996,25 +1033,25 @@ footer {
           <rect x="10"  y="45" width="130" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
           <text x="75" y="65" text-anchor="middle" font-weight="600">Sensor</text>
           <text x="75" y="82" text-anchor="middle" font-size="10.5">초음파·라인</text>
-
+ 
           <line x1="140" y1="70" x2="168" y2="70" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrEDGE)"/>
-
+ 
           <rect x="170" y="45" width="150" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
           <text x="245" y="65" text-anchor="middle" font-weight="600">Obstacle 판단</text>
           <text x="245" y="82" text-anchor="middle" font-size="10.5">최우선 처리</text>
-
+ 
           <line x1="320" y1="70" x2="348" y2="70" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrEDGE)"/>
-
+ 
           <rect x="350" y="45" width="130" height="50" rx="6" fill="none" stroke="#1a1916" stroke-width="1.5"/>
           <text x="415" y="65" text-anchor="middle" font-weight="600">Line 판단</text>
           <text x="415" y="82" text-anchor="middle" font-size="10.5">방향 결정</text>
-
+ 
           <line x1="480" y1="70" x2="508" y2="70" stroke="#1a1916" stroke-width="1.5" marker-end="url(#arrEDGE)"/>
-
+ 
           <rect x="510" y="45" width="120" height="50" rx="6" fill="#1a1916" stroke="#1a1916" stroke-width="1.5"/>
           <text x="570" y="65" text-anchor="middle" font-weight="600" fill="#f7f6f2">MotorControl</text>
           <text x="570" y="82" text-anchor="middle" font-size="10.5" fill="#f7f6f2">속도 제어</text>
-
+ 
           <line x1="415" y1="95" x2="415" y2="128" stroke="#1a1916" stroke-width="1.2" stroke-dasharray="4 3"/>
           <rect x="325" y="130" width="180" height="44" rx="6" fill="none" stroke="#1a1916" stroke-width="1.2" stroke-dasharray="4 3"/>
           <text x="415" y="148" text-anchor="middle" font-weight="600">IRDriver</text>
@@ -1023,19 +1060,19 @@ footer {
       </svg>
     </div>
   </div>
-
+ 
   <div class="sec">
     <div class="sh"><span class="sh-n">02</span><h3>배운 점</h3></div>
     <ul class="learn-list">
-      <li>하드웨어-소프트웨어 경계에서 발생하는 문제는 코드만 봐서는 안 보임</li>
-      <li>센서 이상값을 침묵시키지 않고 명시적으로 전달해야 하는 이유를 직접 겪음</li>
-      <li>여러 판단이 충돌할 때 우선순위를 먼저 정해두는 게 왜 중요한지 체감</li>
+      <li>장애물 바로 앞에서도 차가 안 멈춤 — 초음파 센서가 측정 실패 시 0을 반환하는데 이를 "장애물 없음"으로 오판한 게 원인, -1.0 반환으로 명시적 처리해 해결</li>
+      <li>장애물 회피와 라인 추적 판단이 동시에 들어오면 서로 충돌 — 장애물 감지에 최우선 순위를 둬서 해소</li>
+      <li>IR 리모컨 라이브러리를 코드 곳곳에서 직접 참조해 라이브러리 하나 바뀌면 전역에 영향 — IRDriver로 캡슐화해 영향 범위를 한 곳으로 좁힘</li>
     </ul>
   </div>
-
+ 
 </div><!-- /edgecar -->
-
-
+ 
+ 
 <!-- FOOTER -->
 <footer>
   <div class="footer-name">최민서</div>
@@ -1044,7 +1081,7 @@ footer {
     2026 · Automotive Embedded Portfolio
   </div>
 </footer>
-
+ 
 </div><!-- /page -->
-
+ 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
